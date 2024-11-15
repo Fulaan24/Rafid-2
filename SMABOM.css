@@ -9,6 +9,28 @@ body{
     
 }
 
+
+/* Tablet (ukuran layar antara 768px dan 1024px) */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .container {
+    width: 90%;
+    background-color: lightgreen;
+  }
+}
+
+/* Smartphone (ukuran layar di bawah 768px) */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+    background-color: lightcoral;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+}
+
 .navbar-1{
     /* min-height: 10px; */
     max-width: 100%;
